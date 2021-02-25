@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: "Lato-Regular";
+  src: url(./fonts/Lato-Regular.ttf); 
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(./fonts/Montserrat-Regular.otf); 
   }
-  to {
-    transform: rotate(360deg);
+
+
+  :root {
+    --primaryColor: #5fb7ea;
+    --primaryRGBA: rgba(0,0,0,0.3);
+    --mainGrey: #fafafa;
+    --darkGrey: #5f5e5e;
+    --mainWhite: #fff;
+    --mainBlack: #222;
+    --mainTransition: all 0.3s ease-in-out;
+    --mainSpacing: 0.3rem;
   }
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* globals */
+body {
+  padding-top: 6px;
+  color: var(--mainBlack);
+  background: var(--mainGrey) !important;
+  font-family: Lato-Regular !important;
+  line-height: 1.4;
+}
+
+.text-title {
+  font-family: Montserrat-Regular !important;
+  font-weight: bold;
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+}
+
+.text-main {
+  color: var(--primaryColor);
 }
