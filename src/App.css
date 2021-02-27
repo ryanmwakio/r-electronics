@@ -32,7 +32,7 @@
 body {
   padding-top: 6px;
   color: var(--mainBlack);
-  background: var(--mainGrey) !important;
+  background: var(--mainWhite) !important;
   font-family: Lato-Regular !important;
   line-height: 1.4;
 }
@@ -46,4 +46,25 @@ body {
 
 .text-main {
   color: var(--primaryColor);
+}
+
+
+.main-link {
+  padding: 0.5rem 1rem;
+  background: var(--primaryColor);
+  color: var(--mainWhite);
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  outline: 2px solid var(--primaryColor);
+  outline-offset: 4px;
+  border: none;
+  transition: var(--mainTransition);
+}
+
+.main-link:hover,.main-link:active,.main-link:focus {
+  background: var(--darkGrey);
+  text-decoration: none;
+  color: var(--primaryColor);
+  outline-color: var(--darkGrey);
 }

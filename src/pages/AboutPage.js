@@ -1,9 +1,13 @@
 import React from 'react'
+import Info from '../components/AboutPage/Info'
+import Hero from '../components/Hero'
+import img from '../images/aboutBcg.jpeg'
 
 function AboutPage() {
     return (
         <>
-            <h1>Hello from the about page</h1>
+            <Hero img={img} title="about us" max="true"></Hero>
+            <Info />
         </>
     )
 }
