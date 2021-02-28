@@ -23,6 +23,7 @@ function Footer() {
                                         ))}
                                     </div>
                                 </div>
+                                <p className="dev-link py-2">developed by <a href="mailto:ryanmwakio6@gmail.com">Ryan Mwakio</a></p>
                             </div>
 
                         </FooterWrapper>
@@ -51,6 +52,19 @@ const FooterWrapper = styled.footer`
 
     a:hover{
         color: var(--primaryColor);
+    }
+
+    .dev-link {
+       text-transform: capitalize;
+       font-size: .6rem;
+    }
+
+    .dev-link a{
+        color: var(--primaryColor);
+        border-bottom: 1px solid var(--primaryColor);
+    }
+    .dev-link a:hover{
+        text-decoration: none;
     }
 
 `

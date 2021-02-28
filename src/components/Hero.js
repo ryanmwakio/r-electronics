@@ -28,7 +28,7 @@ const HeroWrapper = styled.section`
     .title {
         padding-top: 2rem;
         font-size: 3.5rem;
-        text-shadow: 4px 4px 2px rgba(0,0,0,0.5);
+        text-shadow: 4px 10px 2px rgba(0,0,0,0.1);
         text-transform: uppercase;
         letter-spacing: var(--mainSpacing);
     }
