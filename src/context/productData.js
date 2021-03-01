@@ -7,7 +7,7 @@ export const items = [
       company: "google",
       description:
         "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-      featured: true,
+      featured: false,
       image: { fields: { file: { url: "img/product-0.png" } } }
     }
   },
@@ -62,7 +62,7 @@ export const items = [
       company: "google",
       description:
         "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-      featured: false,
+      featured: true,
 
       image: { fields: { file: { url: "img/product-4.png" } } }
     }
@@ -133,7 +133,7 @@ export const items = [
       company: "acer",
       description:
         "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-      featured: true,
+      featured: false,
 
       image: { fields: { file: { url: "img/product-9.png" } } }
     }
@@ -161,7 +161,7 @@ export const items = [
       company: "lenovo",
       description:
         "Shaman hexagon fam activated charcoal literally cardigan. Pitchfork YOLO man bun hella. Trust fund vexillologist squid put a bird on it man braid, selvage pug. Schlitz kombucha chillwave pug shabby chic cornhole. Try-hard four loko listicle yuccie kitsch small batch narwhal celiac selfies distillery cloud bread farm-to-table art party leggings glossier.",
-      featured: false,
+      featured: true,
       image: { fields: { file: { url: "img/product-11.png" } } }
     }
   },

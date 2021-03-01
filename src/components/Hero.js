@@ -23,7 +23,7 @@ const HeroWrapper = styled.section`
     justify-content: center;
     min-height: ${props => props.max ? '80vh' : '70vh'};
     color: var(--mainWhite);
-    background: linear-gradient(var(--primaryRGBA),var(--primaryRGBA)), url(${props => props.img}) center/cover no-repeat;
+    background: linear-gradient(to right top, var(--primaryRGBA),var(--primaryRGBA)), url(${props => props.img}) center/cover no-repeat;
 
     .title {
         padding-top: 2rem;
