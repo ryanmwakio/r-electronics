@@ -1,27 +1,26 @@
 @font-face {
   font-family: "Lato-Regular";
-  src: url(./fonts/Lato-Regular.ttf); 
-  }
+  src: url(./fonts/Lato-Regular.ttf);
+}
 
 @font-face {
   font-family: "Montserrat-Regular";
-  src: url(./fonts/Montserrat-Regular.otf); 
-  }
+  src: url(./fonts/Montserrat-Regular.otf);
+}
 
+:root {
+  --primaryColor: #5fb7ea;
+  --primaryColorLight: #5fb7ea8a;
 
-  :root {
-    --primaryColor: #5fb7ea;
-    
-    --primaryRGBA: rgba(0,0,0,.35);
-    --mainGrey: #fafafa;
-    --darkGrey: #5f5e5e;
-    --mainWhite: #fff;
-    --mainBlack: #222;
-    --mainTransition: all 0.3s ease-in-out;
-    --mainSpacing: 0.3rem;
-  }
-
-
+  --primaryRGBA: rgba(0, 0, 0, 0.35);
+  --secondaryRGBA: rgba(255, 255, 255, 0.75);
+  --mainGrey: #fafafa;
+  --darkGrey: #5f5e5e;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainTransition: all 0.3s ease-in-out;
+  --mainSpacing: 0.3rem;
+}
 
 * {
   margin: 0;
@@ -49,7 +48,6 @@ body {
   color: var(--primaryColor);
 }
 
-
 .main-link {
   padding: 0.5rem 1rem;
   background: var(--primaryColor);
@@ -63,9 +61,15 @@ body {
   transition: var(--mainTransition);
 }
 
-.main-link:hover,.main-link:active,.main-link:focus {
+.main-link:hover,
+.main-link:active,
+.main-link:focus {
   background: var(--darkGrey);
   text-decoration: none;
   color: var(--primaryColor);
   outline-color: var(--darkGrey);
+}
+
+.cart-icon {
+  cursor: pointer;
 }

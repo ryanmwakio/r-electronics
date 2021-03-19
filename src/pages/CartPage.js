@@ -1,9 +1,13 @@
 import React from 'react'
+import Hero from '../components/Hero'
+import img from '../images/storeBcg.jpeg'
+import CartSection from '../components/CartPage'
 
 function CartPage() {
     return (
         <>
-            <h3>hello from the cart page</h3>
+            <Hero img={img} title="Cart Page"/>
+            <CartSection/>
         </>
     )
 }

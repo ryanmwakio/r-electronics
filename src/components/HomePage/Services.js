@@ -43,7 +43,7 @@ export default class Services extends Component {
                                             {item.title}
                                         </div>
 
-                                        <div className="mt-3">
+                                        <div className="mt-3 services-text">
                                             {item.text}
                                         </div>
 
@@ -66,6 +66,8 @@ const ServicesWrapper = styled.section`
         font-size: 2.5rem;
         color: var(--primaryColor);
     }
+
+   
 
     p{
         color: var(--darkGrey);

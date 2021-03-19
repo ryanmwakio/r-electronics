@@ -24,7 +24,7 @@ function Product({ product }) {
                                 </div>
                                 <div className="card-body d-flex justify-content-between">
                                     <p className="mb-0">{product.title}</p>
-                                    <p className="mb-0 text-main">kshs {product.price * 1000}</p>
+                                    <p className="mb-0 text-main">kshs {product.price}</p>
                                 </div>
 
 

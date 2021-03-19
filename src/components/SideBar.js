@@ -29,7 +29,7 @@ function SideBar() {
 const SideWrapper = styled.div`
     position: fixed;
     left: 0;
-    top: 73px;
+    top: 65px;
     height:100%;
     width: 15%;
     background: var(--mainWhite);

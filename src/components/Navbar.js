@@ -45,8 +45,7 @@ const NavWrapper = styled.nav`
     width: 100%;
     padding: 1rem 2.5rem; 
     background: var(--mainWhite);
-    border-bottom: 3px solid var(--primaryColor);
-    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
     z-index: 1;
 
     .nav-center {

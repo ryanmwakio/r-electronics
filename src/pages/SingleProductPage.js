@@ -25,7 +25,7 @@ function SingleProductPage() {
                                     <div className="col-md-6 col-sm-12 mx-auto p-4">
                                         <h5 className="text-title mb-4">model : {title}</h5>
                                         <h5 className="text-capitalize text-muted mb-4">company : {company}</h5>
-                                        <h5 className="text-main text-capitalize mb-4">Price : kshs{price * 1000}</h5>
+                                        <h5 className="text-main text-capitalize mb-4">Price : kshs{price}</h5>
                                         <p className="text-capitalize text-title mt-3 title">some info about product : </p>
                                         <p>{description}</p>
 

@@ -28,9 +28,17 @@ const HeroWrapper = styled.section`
     .title {
         padding-top: 2rem;
         font-size: 3.5rem;
-        text-shadow: 4px 10px 2px rgba(0,0,0,0.1);
+        /* text-shadow: -6px 1px 8px rgba(0,0,0,0.1); */
         text-transform: uppercase;
         letter-spacing: var(--mainSpacing);
+
+        
+    }
+
+    h1 {
+        background: -webkit-linear-gradient(var(--primaryColor),var(--primaryColorLight),var(--primaryColor));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     @media(max-width: 576px) {
